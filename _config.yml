@@ -1,7 +1,6 @@
 name: OpenG2P Documentation
 title: OpenG2P Documentation
 markdown: kramdown
-theme: jekyll-theme-cayman
 kramdown:
   input: GFM
   gfm_quirks: [paragraph_end, no_auto_typographic]

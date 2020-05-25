@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/855363c3-6ef3-4dbf-ae6c-440fa27d76ec/deploy-status)](https://app.netlify.com/sites/openg2pdoc/deploys)
+
 # OpenG2P Documentations
+
 Welcome to the repo for our documentation. This is the source for
 [https://docs.openg2p.com/](https://docs.openg2p.com/).
 
@@ -16,8 +19,13 @@ opensource and we deeply appreciate contributions from our community!
 		- [Files not edited here](#files-not-edited-here)
 		- [Overall doc improvements](#overall-doc-improvements)
 	- [Staging the docs](#staging-the-docs)
-	- [liquid](#liquid)
-	- [no_ratings: true](#noratings-true)
+	- [Important files](#important-files)
+	- [Relative linking for GitHub viewing](#relative-linking-for-github-viewing)
+		- [Testing changes and practical guidance](#testing-changes-and-practical-guidance)
+		- [Per-page front-matter](#per-page-front-matter)
+		- [Creating tabs](#creating-tabs)
+		- [Running in-page Javascript](#running-in-page-javascript)
+		- [Images](#images)
 
 
 ## Providing feedback

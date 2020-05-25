@@ -162,7 +162,7 @@
                                         <li><a href="https://github.com/openg2p/openg2p.github.io/issues/new?body=File: [{{ page.path }}](https://docs.openg2p.com{{ page.url }})"
                                                             class="nomunge"><i class="fa fa-check" aria-hidden="true"></i> Request docs changes</a></li>
                                         <!-- toggle mode -->
-                                        <li>
+{% comment %}                                         <li>
                                             <div class="toggle-mode">
                                                 <div class="icon">
                                                     <i class="fa fa-sun-o" aria-hidden="true"></i>
@@ -177,7 +177,7 @@
                                                     <i class="fa fa-moon-o" aria-hidden="true"></i>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> {% endcomment %}
                                     </ul>
                                 </div>
                                 {% unless page.notoc %} {% assign my_min = page.toc_min | default: site.toc_min | default: 2 %} {% assign my_max = page.toc_max | default: site.toc_max | default: 3 %} {% assign my_name = page.url | default: "unnamed" %}

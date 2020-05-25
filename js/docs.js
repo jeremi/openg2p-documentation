@@ -278,7 +278,7 @@ $("ul.nav li.dropdown").hover(function () {
 /*
  *
  * swapStyleSheet*********************************************************************
- *
+ *	we override this to stop night mood
  */
 
 function applyNight() {
@@ -291,8 +291,8 @@ function applyDay() {
 
 $("#switch-style").change(function () {
     if ($(this).is(":checked")) {
-        applyNight();
-        createCookie("night", true, 999)
+		applyDay();
+        createCookie("night", false, 999)
     } else {
         applyDay();
         createCookie("night", false, 999);
