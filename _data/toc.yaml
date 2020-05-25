@@ -1,0 +1,207 @@
+
+horizontalnav:
+- title: Guides
+  path: /
+  node: guides
+- title: Building Blocks
+  path: /erp/
+  node: manuals
+- title: Community
+  path: /community/
+  node: community
+
+
+guides:
+- sectiontitle: Get Started
+  section:
+  - path: /guides/
+    title: OpenG2P Overview
+  - sectiontitle: Quickstart
+    section:
+    - path: /guides/get-started/
+      title: Orientation and Setup
+    - path: /guides/get-started/part2/
+      title: "Initial Configuration"
+    - path: /guides/get-started/part3/
+      title: "Deploying to Production"
+- sectiontitle: User Guides
+  section:
+  - path: /guides/tutorials/
+    title: Tutorials
+- sectiontitle: Deployment Guides
+  section:
+  - path: /guides/deployment/usecases/
+    title: Use Cases
+  - path: /guides/deployment/map-gaps/
+    title: Map Your Gaps
+  - path: /guides/deployment/regulations/
+    title: Regulatory Interplay
+- path: /opensource/
+  title: Contributing to OpenG2P
+- path: /glossary/
+  title: Glossary
+
+
+community:
+- path: /community
+  title: List of Community Addons
+
+manuals:
+- sectiontitle: OpenG2P ERP
+  section:
+  - path: /erp/
+    title: Overview
+  - path: /erp/install/
+    title: Installation
+  - path: /erp/configuration/
+    title: "Initial Configuration"
+  - sectiontitle: User Guide
+    section:
+    - path: /erp/guide/program-management/
+      title: Managing Programs
+    - path: /erp/guide/enrollment/
+      title: Enrolling Beneficiaries
+    - path: /erp/guide/disbursing/
+      title: Paying Beneficiaries
+    - path: /erp/guide/managing-beneficiary/
+      title: Managing Beneficiaries
+    - path: /erp/guide/redressal/
+      title: Handling Compliant & Issues
+    - path: /erp/guide/accounting/
+      title: Disbursement Accounting
+    - path: /erp/guide/using-odk/
+      title: Using Odk for Data Collection
+    - sectiontitle: User Management & Security
+      section:
+      - title: "Authentication & Authorization"
+        path: /erp/guide/usermanagement/auth/
+      - title: "Mapping Common Roles"
+        path: /erp/guide/usermanagement/map-roles/
+      - title: "Advanced User Security"
+        path: /erp/guide/usermanagement/advanced-security/
+    - sectiontitle: Advanced Topics
+      section:
+      - title: "Importing & Exporting Data"
+        path: /erp/guide/advanced/importing-data/
+      - title: "Disbursement Configuration"
+        path: /erp/guide/advanced/disbursement-configuration/
+      - title: "Working with Beneficiary Identities"
+        path: /erp/guide/advanced/external-id/
+      - title: "Optimizations"
+        path: /erp/guide/advanced/server-config/
+      - title: "Understanding the UI"
+        path: /erp/guide/advanced/understanding-the-ui/
+      - title: "Advanced Enrollment Topics"
+        path: /erp/guide/advanced/advanced-enrollments/
+  - path: /erp/production/
+    title: Deploying to Production
+  - sectiontitle: Extending the ERP
+    section:
+    - title: "Adding Payment Initiators"
+      path: /erp/extend/payment-initiators/
+    - title: "Adding Matching & Deduplication Strategies"
+      path: /erp/extend/matchers/
+    - title: "Supporting Other Data Collection Kits"
+      path:  /erp/extend/beneficiary-data-collectors/
+  - path: /erp/faq/
+    title: FAQs
+  - path: /release-notes/
+    title: Release notes
+- sectiontitle: Deduplication Service
+  section:
+  - path: /deduplicator/
+    title: Overview
+  - path: /deduplicator/install/
+    title: Installing
+  - path: /deduplicator/gettingstarted/
+    title: Getting Started
+  - path: /deduplicator/extending/
+    title: Extending
+  - path: /deduplicator/production/
+    title: Deploying to Production
+  - path: /deduplicator/faq/
+    title: FAQs
+  - path: /deduplicator/release-notes/
+    title: Release Notes
+- sectiontitle: Verification Service
+  section:
+  - path: /verificator/
+    title: Overview
+  - path: /verificator/install/
+    title: Installing
+  - path: /verificator/gettingstarted/
+    title: Getting Started
+  - path: /verificator/extending/
+    title: Extending
+  - path: /verificator/production/
+    title: Deploying to Production
+  - path: /verificator/faq/
+    title: FAQs
+  - path: /verificator/release-notes/
+    title: Release Notes
+- sectiontitle: Disbursement Engine
+  section:
+  - path: /disburser/
+    title: Overview
+  - path: /disburser/install/
+    title: Installing
+  - path: /disburser/gettingstarted/
+    title: Getting Started
+  - path: /disburser/extending/
+    title: Extending
+  - path: /disburser/production/
+    title: Deploying to Production
+  - path: /disburser/reference/
+    title: Reference Documentation
+  - path: /disburser/faq/
+    title: FAQs
+  - path: /disburser/release-notes/
+    title: Release Notes
+- sectiontitle: E-Vouchering Service
+  section:
+  - path: /voucherservice/
+    title: Overview
+  - path: /voucherservice/install/
+    title: Installing
+  - path: /voucherservice/gettingstarted/
+    title: Getting Started
+  - path: /voucherservice/extending/
+    title: Extending
+  - path: /voucherservice/production/
+    title: Deploying to Production
+  - path: /voucherservice/faq/
+    title: FAQs
+  - path: /voucherservice/release-notes/
+    title: Release Notes
+- sectiontitle: Proof-of-Receipt Service
+  section:
+  - path: /receiptservice/
+    title: Overview
+  - path: /receiptservice/install/
+    title: Installing
+  - path: /receiptservice/gettingstarted/
+    title: Getting Started
+  - path: /receiptservice/extending/
+    title: Extending
+  - path: /receiptservice/production/
+    title: Deploying to Production
+  - path: /receiptservice/reference/
+    title: Reference Documentation
+  - path: /receiptservice/faq/
+    title: FAQs
+  - path: /receiptservice/release-notes/
+    title: Release Notes
+- sectiontitle: Discovery Specification
+  section:
+  - path: /discoveryspec/
+    title: Overview
+  - path: /discoveryspec/specification/
+    title: Specification
+- sectiontitle: Mobile Solutions
+  section:
+  - path: /mobiletools/
+    title: Overview
+- sectiontitle: OpenG2P Toolbox
+  section:
+  - path: /toolbox/
+    title: Overview

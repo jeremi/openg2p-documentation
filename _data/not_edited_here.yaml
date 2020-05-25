@@ -1,0 +1,13 @@
+# Files and directories here are not edited in the openg2p.github.io repo.
+# Instead, they are edited in the appropriate upstream repo and pulled
+# into this repo periodically, or they are automatically generated. The intent
+# is that if you submit a PR with changes to these files or directories, a CI
+# job will fail in the PR, indicating that it should not be merged. THIS IS NOT
+# YET IMPLEMENTED!! The PR reviewer should make sure no files here are in the PR.
+
+# If you need to edit these files or directories, submit a PR in the repo and
+# directory listed in "source" below.
+
+# Make sure directories have the trailing slash, keep the list alphabetical
+
+overrides:
