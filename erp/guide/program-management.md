@@ -5,9 +5,9 @@ keywords: openg2p, guide, user guide, install, OpenG2P ERP, programs
 
 ---
 
-Organizations can manage multiple cash transfer programs without needing to have separate instances of the ERP per program. Additionally these programs can make references to the same beneficiary database. A consequence of this is that a beneficiary in the **registry** does not ensure inclusion in disbursement lists. That beneficiary should to have an active registration in the program for which the disbursement list is being generated.
+Organizations can manage multiple cash transfer programs without needing to have separate instances of the ERP per program. Additionally these programs can make references to the same beneficiary database. A consequence of this is that a beneficiary in the **registry** does not ensure inclusion in disbursement lists. That beneficiary should to have an active enrollment in the program for which the disbursement list is being generated.
 
-Additionally beneficiaries can be registered to more than one program at a time as we are working on defining program exclusion rules that can disallow active registrations into "incompatible" programs.
+Additionally beneficiaries can be registered to more than one program at a time as we are working on defining program exclusion rules that can disallow active enrollments into "incompatible" programs.
 
 ## Creating A Program
 
@@ -15,7 +15,7 @@ A program is created by going to `Beneficiary/Configuration/Programs` menu.
 
 ![program-men](../images/program-menu.png){:width="80%"}
 
-Enter the details of your program. `Ends On` is optional and only needs to be specified if your program has a fixed term. After this date, disbursements lists can no longer be generated for that program, registrations to that program will be inactivated and that the program closed.
+Enter the details of your program. `Ends On` is optional and only needs to be specified if your program has a fixed term. After this date, disbursements lists can no longer be generated for that program, enrollments to that program will be inactivated and that the program closed.
 
 ![program-form](../images/program-form.png){:width="80%"}
 
@@ -54,11 +54,11 @@ A beneficiary can be enrolled from the `actions` button dropdown on the benefici
 
 ![program-register-form](../images/program-register-form.png){:width="80%"}
 
->**WARNING**: See [What Determines Inclusion in Disbursement List](#what-determines-inclusion-in-disbursement-list) section below to understand the importance of `Registration Date`.
+>**WARNING**: See [What Determines Inclusion in Disbursement List](#what-determines-inclusion-in-disbursement-list) section below to understand the importance of `enrollment Date`.
 
-Beneficiary registrations are not automatically confirmed but enters a workflow for user with the `Program Manager` role to confirm that registration into a program. However if the action above is being undertaken by someone with that role, the `Auto Confirm Registrations` option bypasses and automatically confirms the registration.
+Beneficiary enrollments are not automatically confirmed but enters a workflow for user with the `Program Manager` role to confirm that enrollment into a program. However if the action above is being undertaken by someone with that role, the `Auto Confirm enrollments` option bypasses and automatically confirms the enrollment.
 
-Anyone with the `Enrollment Officer` officer role can start the registration process.
+Anyone with the `Enrollment Officer` officer role can start the enrollment process.
 
 You can also enroll a list of beneficiaries by filtering by some criteria and then mass registering the resulting list to a program.
 
@@ -72,41 +72,41 @@ A prerequisite to de-registering beneficiaries from a program is defining a list
 
 ![disenroll-reasons](../images/disenroll-reasons.png){:width="50%"}
 
-Beneficiaries are removed from programs when the end date on the program registration is reached (if fixed-term), or when the registration status is manually closed.
+Beneficiaries are removed from programs when the end date on the program enrollment is reached (if fixed-term), or when the enrollment status is manually closed.
 
 To remove manually from a program, select the beneficiary and from the action menu, click on `Disenroll Beneficiairies`.
 
 ![program-disenrollment](../images/program-disenroll-menu.png){:width="80%"}
 
-![program-deregistration](../images/program-deregistration.png){:width="80%"}
+![program-deenrollment](../images/program-deenrollment.png){:width="80%"}
 
 | Field          | Description                                                                                                                                                                                                                                 |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Reason         | Dropdown list of configured reasons for de-registration                                                                                                                                                                                  |
+| Reason         | Dropdown list of configured reasons for de-enrollment                                                                                                                                                                                  |
 | Type           | Supports two types "Disenroll from program" which is what we want in this case as simply deregisters beneficiary from a program and "End of Programs and Archive" which de-registers beneficiary from all programs and archives their record |
 | Program        | The program we wish to de-register beneficiary from                                                                                                                                                                                         |
 | Effective Date | The effective date. If in the future, the action will not be preformed until then at which time the ERP will automatically de-register the beneficiary                                                                                      |
 | Note           | Additional notes explaining the action  |
 
-Clicking `Disenroll` does not automatic deregister the beneficiary but starts an auditable workflow that needs to be confirmed by a user with the `Program Manager` role. Active de-registration request can be found at `Enrollment\Disenrollment` menu. If the effective date on the de-registration record is not in the future, the beneficiary is immediately deregistered from program otherwise the ERP will deregister beneficiary once that effective date is reached.
+Clicking `Disenroll` does not automatic deregister the beneficiary but starts an auditable workflow that needs to be confirmed by a user with the `Program Manager` role. Active de-enrollment request can be found at `Enrollment\Disenrollment` menu. If the effective date on the de-enrollment record is not in the future, the beneficiary is immediately deregistered from program otherwise the ERP will deregister beneficiary once that effective date is reached.
 
 ![program-deregister-record](../images/program-deregister-record.png){:width="80%"}
 
-Anyone with the `Enrollment Officer` officer role can start the de-registration process. This allows location administrators to propose de-registration of beneficiaries who no longer are under their purview or no longer meet criteria.
+Anyone with the `Enrollment Officer` officer role can start the de-enrollment process. This allows location administrators to propose de-enrollment of beneficiaries who no longer are under their purview or no longer meet criteria.
 
 ### What Determines Inclusion in Disbursement List
 
-Beneficiaries are only included in disbursement lists if they are actively registered to the program for which that list was generated. However there cases in which the beneficiary might be not be included though carrying an active registration or included even though they do not have active registrations in a program.
+Beneficiaries are only included in disbursement lists if they are actively registered to the program for which that list was generated. However there cases in which the beneficiary might be not be included though carrying an active enrollment or included even though they do not have active enrollments in a program.
 
-- **Beneficiary has active registration but the start date is after the end date of the current disbursement cycle**
+- **Beneficiary has active enrollment but the start date is after the end date of the current disbursement cycle**
 
-	Covered in more details in the [disbursement guide](disbursing.md), disbursements cycle are bounded periods with start and end dates or from and to date. If the registration start date falls outside the end date of the current disbursement cycle, it is assumed that beneficiaries registration should only apply after that cycle and so not included in the disbursement batch.
+	Covered in more details in the [disbursement guide](disbursing.md), disbursements cycle are bounded periods with start and end dates or from and to date. If the enrollment start date falls outside the end date of the current disbursement cycle, it is assumed that beneficiaries enrollment should only apply after that cycle and so not included in the disbursement batch.
 
-- **Beneficiary has inactive registration but the end date is before the end date of the disbursement cycle**
+- **Beneficiary has inactive enrollment but the end date is before the end date of the disbursement cycle**
 
-	Inversely, if the beneficiary's registration is deactivated but the end date on the registration falls within the disbursement cycle, that is greater than the start date but lesser than the end of the cycle, it is assumed that beneficiary is part of that cycle and so included in the disbursement list for that cycle.
+	Inversely, if the beneficiary's enrollment is deactivated but the end date on the enrollment falls within the disbursement cycle, that is greater than the start date but lesser than the end of the cycle, it is assumed that beneficiary is part of that cycle and so included in the disbursement list for that cycle.
 
-> To de-register a beneficiary and have them not factored into a cycle, set the end date of the de-registration action to one before than the start date of the cycle.
+> To de-register a beneficiary and have them not factored into a cycle, set the end date of the de-enrollment action to one before than the start date of the cycle.
 >
 ]{: .important}
 

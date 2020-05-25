@@ -125,9 +125,9 @@ There are two methods to generating disbursement slips: 1) automating generation
 
 ![batch-generation-methods](../images/batch-generation-methods.png){:width="50%"}
 
-**Automating Generation** is the simpler and recommended method, it selects all beneficiaries with active registrations in the program for which the batch is being generated and creates disbursement slips for each.
+**Automating Generation** is the simpler and recommended method, it selects all beneficiaries with active enrollments in the program for which the batch is being generated and creates disbursement slips for each.
 
-**Add Manually** allows you to filter and choose beneficiaries you want in the batch as long as those beneficiaries have active registrations in the program for which the batch is being generated.
+**Add Manually** allows you to filter and choose beneficiaries you want in the batch as long as those beneficiaries have active enrollments in the program for which the batch is being generated.
 
 On triggering generation a background job is queued that does the actual work of computing and creating individual slips. How long this takes will depend on the number of beneficiaries that make up the batch, your server's capacity, and ERP configuration. Learn more about this in [our advanced guides](advanced/server-config.md).
 
@@ -162,7 +162,7 @@ Disbursement alerts are instances of possible errors in the list that should be 
 - Disbursed amount for beneficiary is zero or negative
 - Beneficiary excluded from batch - A beneficiary who should be added to a batch could not
 - An active investigation workflow exists for a beneficiary
-- Could not find an active registration for beneficiary in the program
+- Could not find an active enrollment for beneficiary in the program
 - An error was encountered while computing slip for beneficiary
 - An active disenrollment workflow exists for beneficiary
 - A beneficiary's slip not added to an advice as banking information is unavailable for beneficiary

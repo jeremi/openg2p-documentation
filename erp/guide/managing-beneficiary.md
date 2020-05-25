@@ -13,7 +13,7 @@ The beneficiary registry provides a coherent 360-degree view of beneficiaries ac
 
 Viewing a beneficiary's record provides a 360-degree view of that beneficiary. Not can you immediately access the beneficiary's details but also associated records and documents like:
 
-- program registration history
+- program enrollment history
 - history of disbursement slips
 - complaints history
 - attached documents
@@ -63,7 +63,7 @@ Beneficiary data can be exported by users in the `Manager` role to CSV or excel.
 
 ## Archiving Beneficiaries
 
-This process is very similar to the deregister beneficiary from program workflow, so please [refer to that](./program-management.md#Removing-Beneficiaries-from-Program). The only difference is that in the popup form, for the field `Type` the option "End of Programs and Archive" should be selected. This ends all active program registration that beneficiary belongs to and archives that beneficiary's record.
+This process is very similar to the deregister beneficiary from program workflow, so please [refer to that](./program-management.md#Removing-Beneficiaries-from-Program). The only difference is that in the popup form, for the field `Type` the option "End of Programs and Archive" should be selected. This ends all active program enrollment that beneficiary belongs to and archives that beneficiary's record.
 
 ## Viewing Archived Beneficiaries
 
