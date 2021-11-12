@@ -11,7 +11,7 @@ skip_read_time: true
 
 ## Get started with OpenG2P
 
-Bootstrapped by the [DSTI, Government of Sierra Leone](https://www.dsti.gov.sl), the "OpenG2P" aims to provide a confluence for and solutions to effectively digitizing government to persons, and large-scale social protection transfers. It is a set of digital building blocks helping SPs digitize key cogs & address gaps in the delivery chain of targeting & enrollment, list management, payment digitization, & recourse.
+Bootstrapped by the [DSTI, Government of Sierra Leone](https://www.dsti.gov.sl),[Fynarfin](https://fynarfin.io/) the "OpenG2P" aims to provide a confluence for and solutions to effectively digitize government to persons, and large-scale social protection transfers. It is a set of digital building blocks helping SPs digitize key cogs & address gaps in the delivery chain of targeting & enrollment, list management, payment digitization, & recourse.
 
 OpenG2P comprises of several projects (blocks), each addressing a single key pain point in the delivery chain. These can be used independently of the other blocks depending on a program's gaps or as a package seamlessly integrated to provide an end-to-end solution kit.
 
@@ -22,31 +22,22 @@ OpenG2P comprises of several projects (blocks), each addressing a single key pai
 <div class="component-container">
     <!--start row-->
     <div class="row">
-	<div class="col-sm-12 col-md-12 col-lg-4 block">
+    <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="#"><img src="/images/linux_48.svg" alt="Mobile Enrollment"></a>
+                    <a href="#"><img src="/images/linux_48.svg" alt="OpenG2P ERP"></a>
                 </div>
-                <h3 id="mobiletools"><a href="/mobiletools">Mobile Tools</a></h3>
-                <p>Mobile-based solutions to enrolling, complaint handling, & beneficiary management in resource-challenged rural & perimeters</p>
+                <h3 id="openg2p-erp"><a href="/erp">OpenG2P ERP</a></h3>
+                <p>A ERP, built on the Odoo ERP, for managing programs, enrollment, beneficiary data, disbursements, complaints, and more</p>
             </div>
         </div>
-		<div class="col-sm-12 col-md-12 col-lg-4 block">
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="#"><img src="/images/linux_48.svg" alt="Deduplication Engine"></a>
+                    <a href="#"><img src="/images/linux_48.svg" alt="OpenG2P Toolbox"></a>
                 </div>
-                <h3 id="deduplicator"><a href="/deduplicator">Deduplication Engine</a></h3>
-                <p>Extensible entity resolution framework for deduplicating and finding/matching beneficiaries usually lacking unique identities</p>
-            </div>
-        </div>
-		<div class="col-sm-12 col-md-12 col-lg-4 block">
-            <div class="component">
-                <div class="component-icon">
-                    <a href="#"><img src="/images/linux_48.svg" alt="Verification Service"></a>
-                </div>
-                <h3 id="verification-service"><a href="/verificator">Verification Service</a></h3>
-                <p>Abstraction layer and tools for connecting to identity sources, e.g. civil registry, & verifying beneficiary identity against</p>
+                <h3 id="openg2-toolbox"><a href="/toolbox">OpenG2P Toolbox</a></h3>
+                <p>A collection of tools and scripts for deploying, running production instances, and migrating data to OpenG2P</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -58,6 +49,35 @@ OpenG2P comprises of several projects (blocks), each addressing a single key pai
                 <p>Abstraction layer and tooling for integrating with the financial system through existing payment rails and payment initiators</p>
             </div>
         </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="#"><img src="/images/linux_48.svg" alt="Deduplication Engine"></a>
+                </div>
+                <h3 id="deduplicator"><a href="/deduplicator">Deduplication Engine</a></h3>
+                <p>Extensible entity resolution framework for deduplicating and finding/matching beneficiaries usually lacking unique identities</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="#"><img src="/images/linux_48.svg" alt="Mobile Enrollment"></a>
+                </div>
+                <h3 id="mobiletools"><a href="/mobiletools">Mobile Tools</a></h3>
+                <p>Mobile-based solutions to enrolling, complaint handling, & beneficiary management in resource-challenged rural & perimeters</p>
+            </div>
+        </div>
+		
+		<div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="#"><img src="/images/linux_48.svg" alt="Verification Service"></a>
+                </div>
+                <h3 id="verification-service"><a href="/verificator">Verification Service</a></h3>
+                <p>Abstraction layer and tools for connecting to identity sources, e.g. civil registry, & verifying beneficiary identity against</p>
+            </div>
+        </div>
+        
        <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
@@ -76,15 +96,6 @@ OpenG2P comprises of several projects (blocks), each addressing a single key pai
                 <p>Solutions to irrefutable proof of receipt, asserting recipient's uniqueness, & running "non-preassembled list" transfers</p>
             </div>
         </div>
-		<div class="col-sm-12 col-md-12 col-lg-4 block">
-            <div class="component">
-                <div class="component-icon">
-                    <a href="#"><img src="/images/linux_48.svg" alt="OpenG2P ERP"></a>
-                </div>
-                <h3 id="openg2p-erp"><a href="/erp">OpenG2P ERP</a></h3>
-                <p>A ERP, built on the Odoo ERP, for managing programs, enrollment, beneficiary data, disbursements, complaints, and more</p>
-            </div>
-        </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
@@ -94,15 +105,7 @@ OpenG2P comprises of several projects (blocks), each addressing a single key pai
                 <p>Open specification for information sharing among independent programs serving similar demographic</p>
             </div>
         </div>
-       <div class="col-sm-12 col-md-12 col-lg-4 block">
-            <div class="component">
-                <div class="component-icon">
-                    <a href="#"><img src="/images/linux_48.svg" alt="OpenG2P Toolbox"></a>
-                </div>
-                <h3 id="openg2-toolbox"><a href="/toolbox">OpenG2P Toolbox</a></h3>
-                <p>A collection of tools and scripts for deploying, running production instances, and migrating data to OpenG2P</p>
-            </div>
-        </div>
+    </div>  
 </div>
 
 <div class="row">
@@ -121,9 +124,9 @@ OpenG2P is an opensource and collaborative approach to helping governments and h
 
 ### Contributors
 
-OpenG2P emerged out of the 2014-2016 Sierra Leone Ebola Payments Program, bootstrapped by the [DSTI, GoSL](https://dsti.gov.sl) and is now being developed as a Digital Public Good.
+OpenG2P emerged out of the 2014-2016 Sierra Leone Ebola Payments Program, bootstrapped by the [DSTI, GoSL](https://dsti.gov.sl), [iDT Labs](https://idtlabs.xyz), [Mifos](https://mifos.org) and partners and is now being developed as a Digital Public Good.
 
-OpenG2P depends on an active community of volunteers. Anyone can help with defining challenges, delve into the github backlog, and improve the documentation on this site.
+OpenG2P depends on an active community of volunteers. Anyone can help with defining challenges, delve into the Github backlog, and improve the documentation on this site.
 
 [Be a Contributor](#){: class="button outline-btn"}
 

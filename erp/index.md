@@ -13,10 +13,10 @@ The ERP provides rich web-based interface and set of tools to 1) managing the en
 
 <br/>
 
-## Release notes
+<!-- ## Release notes
 
 To see a detailed list of changes for past and current releases of OpenG2P ERP refer to the
-[RELEASE NOTW](./release-notes.md).
+[RELEASE NOTW](./release-notes.md). -->
 
 ## Getting help
 

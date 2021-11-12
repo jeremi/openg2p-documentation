@@ -5,8 +5,6 @@ title: OpenG2P Overview
 toc_max: 2
 ---
 
-@TODO
-
 ## Next steps
 
 @TODO

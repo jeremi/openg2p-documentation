@@ -4,7 +4,7 @@ keywords: documentation, docs, openg2p, receipt, receipt service, receipt provid
 title: Overview of OpenG2P Receipt Service
 ---
 
-@TODO Overview
+<!-- @TODO Overview -->
 
 ## Receipt Service Documentation
 
@@ -14,7 +14,7 @@ title: Overview of OpenG2P Receipt Service
 - [Deploying to Production](production.md)
 - [Frequently asked questions](faq.md)
 
-## Features
+<!-- ## Features
 
 The features of the receipt service that make it effective are:
 @TODO
@@ -30,7 +30,7 @@ The features of the receipt service that make it effective are:
 
 ### Using as Standalone
 
-@TODO
+@TODO -->
 
 
 ## Release notes

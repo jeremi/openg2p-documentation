@@ -4,7 +4,7 @@ keywords: documentation, docs, openg2p, voucher, voucher service, voucher provid
 title: Overview of OpenG2P Voucher Service
 ---
 
-@TODO Overview
+<!-- @TODO Overview -->
 
 ## Voucher Service Documentation
 
@@ -14,7 +14,7 @@ title: Overview of OpenG2P Voucher Service
 - [Deploying to Production](production.md)
 - [Frequently asked questions](faq.md)
 
-## Features
+<!-- ## Features
 
 @TODO
 
@@ -29,7 +29,7 @@ title: Overview of OpenG2P Voucher Service
 
 ### Using as Standalone
 
-@TODO
+@TODO -->
 
 
 ## Release notes

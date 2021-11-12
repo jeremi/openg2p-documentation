@@ -4,7 +4,7 @@ keywords: documentation, docs, openg2p
 title: Get started with OpenG2P Disbursement Engine
 ---
 
-@TODO
+<!-- @TODO -->
 
 ## Where to go next
 

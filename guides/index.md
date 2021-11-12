@@ -4,7 +4,8 @@ keywords: openg2p, introduction, documentation, about, technology, understanding
 title: OpenG2P Overview
 ---
 
-@TODO - [Talk about the high level of what OpenG2P is]
+“OpenG2P” aims to provide a confluence for and solutions to effectively digitize government to persons, and large-scale social protection transfers. It is a set of digital building blocks helping SPs digitize key cogs & address gaps in the delivery chain of targeting & enrollment, list management, payment digitization, & recourse.
+
 The minimum operational functions that should be
 supported by an effective MIS in a social protection scheme
 are:
@@ -27,7 +28,7 @@ recipients should exit a scheme); and
 monitoring
 
 
-## The OpenG2P Kit
+<!-- ## The OpenG2P Kit
 
 @TODO - [Talk about the kit and how it meshes building blocks together]
 
@@ -41,7 +42,7 @@ monitoring
 
 ## OpenG2P Architecture
 
-@TODO
+@TODO -->
 
 ## Next steps
 

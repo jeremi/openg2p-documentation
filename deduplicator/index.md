@@ -20,7 +20,7 @@ but provides an easily extensible framework for adopters to add more methods, e.
 
 Currently on entity resolution is supported; however we are working on adding fingerprint identification to the set of deduplication strategies.
 
-## Common use cases
+<!-- ## Common use cases
 
 @TODO
 
@@ -30,7 +30,7 @@ Currently on entity resolution is supported; however we are working on adding fi
 
 ### Using as Standalone
 
-@TODO
+@TODO -->
 
 
 ## Release notes

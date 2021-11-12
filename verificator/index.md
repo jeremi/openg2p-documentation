@@ -4,7 +4,7 @@ keywords: documentation, docs, openg2p, verification, verification service, veri
 title: Overview of OpenG2P Verification Service
 ---
 
-@TODO
+<!-- @TODO -->
 The core design issue is how to manage the tradeoff between Type-II errors of inclusion whereby benefits
 are paid to non-eligible or “ghost” recipients against Type-I errors of exclusion whereby legitimate
 beneficiaries are denied benefits to which they are entitled.
@@ -20,7 +20,7 @@ in the ability to better identify their citizens as they develop (Scott, 1998).
 - [Deploying to Production](production.md)
 - [Frequently asked questions](faq.md)
 
-## Features
+<!-- ## Features
 
 The features of the verification service that make it effective are:
 @TODO
@@ -36,7 +36,7 @@ The features of the verification service that make it effective are:
 
 ### Using as Standalone
 
-@TODO
+@TODO -->
 
 
 ## Release notes

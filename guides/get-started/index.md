@@ -8,11 +8,11 @@ description: Get oriented on some basics of OpenG2P and install OpenG2P.
 
 Welcome! We are excited that you want to learn OpenG2P. The OpenG2P Quickstart teaches you how to:
 
-1.  Set up OpenG2P (on this page)
+** Set up OpenG2P (on this page) **
 
-2.  [Initial Configuration](part2.md)
+<!-- 2.  [Initial Configuration](part2.md)
 
-3.  [Deploying to Production](part3.md)
+3.  [Deploying to Production](part3.md) -->
 
 ## Set up
 
@@ -26,7 +26,25 @@ Welcome! We are excited that you want to learn OpenG2P. The OpenG2P Quickstart t
 
 ### Docker
 
-@TODO
+#### Steps :
+You can grab the official docker image of odoo(12.0) :
+
+<https://hub.docker.com/_/odoo>
+
+Clone OpenG2P repository :
+
+<https://github.com/OpenG2P/openg2p-erp>
+
+Clone OpenG2P-community-addon repository : 
+
+<https://github.com/OpenG2P/openg2p-erp-community-addon>
+
+Mount OpenG2P-odoo addons within the Odoo container, at /mnt/extra-addons : 
+
+`(sudo)docker run -v /path/to/addons:/mnt/extra-addons -p 8069:8069 -v odoo-db:/var/lib/postgresql/data -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e  
+POSTGRES_DB=postgres --name db postgres:13 --name odoo --link db:db -t odoo`
+
+Access ERP at port `localhost:8069`.
 
 {% endcapture %}
 {{ installdocker-content | markdownify }}
@@ -36,7 +54,29 @@ Welcome! We are excited that you want to learn OpenG2P. The OpenG2P Quickstart t
 {% capture installsource-content %}
 
 ### From Source
-@TODO
+Follow steps on official odoo documentation : 
+
+<https://www.odoo.com/documentation/12.0/administration/install.html#:~:text=systemctl%20start%20odoo-,Source%20Install,-The%20source%20%E2%80%9Cinstallation>
+
+Clone OpenG2P repository :
+
+<https://github.com/OpenG2P/openg2p-erp>
+
+Clone OpenG2P-community-addon repository : 
+
+<https://github.com/OpenG2P/openg2p-erp-community-addon>
+
+Paste them inside odoo directory.
+
+Install requirements file inside virtual environment :
+
+`pip install -r requirements.txt`
+
+Start ERP using the command : 
+
+`python odoo-bin -r {username} -w {password}  
+--addons-path=addons,openg2p-erp,openg2p-erp-community-addon -d {database_name}`
+
 
 {% endcapture %}
 {{ installsource-content | markdownify }}
@@ -49,5 +89,5 @@ Welcome! We are excited that you want to learn OpenG2P. The OpenG2P Quickstart t
 
 At this point, you've installed OpenG2P.
 
-[On to Part 2 >>](part2.md){: class="button outline-btn" style="margin-bottom: 30px; margin-right: 100%"}
+<!-- [On to Part 2 >>](part2.md){: class="button outline-btn" style="margin-bottom: 30px; margin-right: 100%"} -->
 

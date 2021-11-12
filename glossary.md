@@ -1,4 +1,5 @@
 ---
+---
 title: "Glossary"
 description: "Glossary of terms used around OpenG2P"
 keywords: "glossary, openg2p, terms, definitions"
