@@ -11,7 +11,7 @@ skip_read_time: true
 
 ## Get started with OpenG2P
 
-Bootstrapped by the [DSTI and the Government of Sierra Leone](https://www.dsti.gov.sl),[The Mifos Initiative](https://mifos.org) and [Fynarfin](https://fynarfin.io/), "OpenG2P" aims to provide a confluence for and solutions to effectively digitize government to person, and large-scale social protection transfers. It is a set of digital building blocks helping SPs digitize key cogs & address gaps in the delivery chain of targeting & enrollment, list management, payment digitization, & recourse.
+Bootstrapped by [DSTI and the Government of Sierra Leone](https://www.dsti.gov.sl),[The Mifos Initiative](https://mifos.org) and [Fynarfin](https://fynarfin.io/), "OpenG2P" aims to provide a confluence for and solutions to effectively digitize government to person, and large-scale social protection transfers. It is a set of digital building blocks helping SPs digitize key cogs & address gaps in the delivery chain of targeting & enrollment, list management, payment digitization, & recourse.
 
 OpenG2P comprises of several projects (blocks), each addressing a single key pain point in the delivery chain. These can be used independently of the other blocks depending on a program's gaps or as a package seamlessly integrated to provide an end-to-end solution kit.
 
