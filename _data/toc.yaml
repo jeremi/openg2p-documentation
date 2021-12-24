@@ -32,6 +32,8 @@ guides:
   section:
   # - path: /guides/tutorials/
   #   title: Tutorials
+  - path: /guides/tutorials/odk/
+    title: ODK
   - path: /guides/tutorials/registration/
     title: Registration
   - path: /guides/tutorials/beneficiary/
