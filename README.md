@@ -3,7 +3,7 @@
 # OpenG2P Documentations
 
 Welcome to the repo for our documentation. This is the source for
-[https://docs.openg2p.com/](https://docs.openg2p.com/).
+[docs.openg2p.org](https://docs.openg2p.org/).
 
 Feel free to send us pull requests and file issues. Our docs are completely
 opensource and we deeply appreciate contributions from our community!
@@ -32,7 +32,7 @@ opensource and we deeply appreciate contributions from our community!
 
 We really want your feedback, and we've made it easy. You can edit a page or
 request changes in the right column of every page on
-[docs.openg2p.com](https://docs.openg2p.com/).
+[docs.openg2p.org](https://docs.openg2p.org/).
 
 **Only file issues about the documentation in this repository.** One way
 to think about this is that you should file a bug here if your issue is that you
